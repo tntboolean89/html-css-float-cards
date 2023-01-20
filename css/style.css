@@ -75,14 +75,37 @@ Cards Section
 ---------------
 */
 
+
 .card {
     background-color: #0f0e17;
-    height: 100px;
     float: left;
     width: calc(100% / 3 - 20px);
-    margin-bottom: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(200, 200, 200);
 }
 
-.cards .card:nth-child(3n + 2) {
-    margin: 0 10px;
+.card-image {
+    display:block;
+    float:left;
+    height: 100px;
+}
+
+.card-contents {
+    float: left;
+    padding: 10px 10px;
+    color: #FFF;
+}
+
+.content-designer {
+    margin: 5px 0;
+}
+
+.card-contents a  {
+ color: #71c5c5;
+ text-decoration: none;
+}
+
+.card-contents a:hover {
+color: #e53170;
+text-decoration: underline;
 }
