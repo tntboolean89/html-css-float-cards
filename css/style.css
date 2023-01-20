@@ -21,6 +21,10 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 
 /*
 ---------------
@@ -63,4 +67,22 @@ section.heading h2 {
 
 section.heading p {
     line-height: 1.5em;
+}
+
+/*
+---------------
+Cards Section
+---------------
+*/
+
+.card {
+    background-color: #0f0e17;
+    height: 100px;
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 10px;
+}
+
+.cards .card:nth-child(3n + 2) {
+    margin: 0 10px;
 }
